@@ -98,3 +98,8 @@ patch:
   'npm:tough-cookie:20170905':
     - react-native > metro > jest-haste-map > sane > fsevents > node-pre-gyp > request > tough-cookie:
         patched: '2019-09-07T18:00:48.290Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - snyk > proxy-agent > https-proxy-agent:
+        patched: '2019-10-04T06:09:32.538Z'
+    - snyk > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2019-10-04T06:09:32.538Z'
