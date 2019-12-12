@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.5
+version: v1.14.0
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -98,3 +98,6 @@ patch:
   'npm:tough-cookie:20170905':
     - react-native > metro > jest-haste-map > sane > fsevents > node-pre-gyp > request > tough-cookie:
         patched: '2019-09-07T18:00:48.290Z'
+  SNYK-JS-TREEKILL-536781:
+    - snyk > snyk-sbt-plugin > tree-kill:
+        patched: '2019-12-12T06:04:44.734Z'
